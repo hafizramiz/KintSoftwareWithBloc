@@ -1,0 +1,8 @@
+part of 'product_bloc.dart';
+
+abstract class ProductEvent extends Equatable{
+   List<Object> get props=>[];
+}
+class GetProductList extends ProductEvent {
+
+}
